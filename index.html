@@ -56,13 +56,13 @@
                 </div>
                 <div class="flex items-center space-x-8 space-x-reverse">
                     <a href="#home"
-                        class="text-white font-medium text-lg nav-link relative hover:text-cinnabar-400">الرئيسية</a>
-                    <a href="#about" class="text-white font-medium text-lg nav-link relative hover:text-cinnabar-400">من
+                        class="text-white font-semibold text-xl nav-link relative hover:text-cinnabar-400">الرئيسية</a>
+                    <a href="#about" class="text-white font-semibold text-xl nav-link relative hover:text-cinnabar-400">من
                         نحن</a>
                     <a href="#services"
-                        class="text-white font-medium text-lg nav-link relative hover:text-cinnabar-400">خدماتنا</a>
-                    <a href="#why-us" class="text-white font-medium text-lg nav-link relative hover:text-cinnabar-400">لماذا
-                        نحن</a>
+                        class="text-white font-semibold text-xl nav-link relative hover:text-cinnabar-400">المنتجات</a>
+                    <a href="#tools"
+                        class="text-white font-semibold text-xl nav-link relative hover:text-cinnabar-400">خدماتنا</a>
                 </div>
                 <a href="#contact" class="px-6 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-full font-medium transition-all">تواصل معنا</a>
             </div>
@@ -72,24 +72,26 @@
     <!-- Hero Section -->
     <section id="home" class="relative text-white pb-16 min-h-[110vh] flex items-center justify-center hero-section"
         style="background-image: url('img/hero/hero.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="absolute inset-0 bg-gradient-to-l from-black/15 to-transparent"></div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center pt-32">
-                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                    ألوان تصنع الفرق
+            <div class="text-center pt-40">
+                <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+                    <span class="text-cinnabar-400 drop-shadow-lg">
+                        <span class="text-red-400">أ</span><span class="text-blue-400">ل</span><span class="text-green-400">و</span><span class="text-yellow-400">ا</span><span class="text-purple-400">ن</span>
+                    </span> تصنع <span class="text-primary-400 drop-shadow-lg">الفرق</span>
                 </h1>
-                <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed opacity-90">
-                    سايبس – ليبيا تقدّم دهانات عالية الجودة تجمع بين الجمال، المتانة، والابتكار، لتمنح مساحاتك لمسة نهائية تدوم وتقاوم الزمن.
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-95">
+                    اكتشف عالم الألوان المتميز مع 
+                    <span class="text-6xl md:text-7xl font-bold bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent drop-shadow-lg">سايبس</span>
+                    واستمتع بجودة استثنائية تدوم لسنوات
                 </p>
-                <p class="text-lg mb-10 opacity-80">
-                    دهانات مصمّمة خصيصًا لتناسب المناخ الليبي وتلبي تطلعات الأفراد والمشاريع الكبرى.
-                </p>
-                <p class="text-lg mb-10 opacity-80 font-semibold">
-                    سايبس… حيث تبدأ الجودة وتستمر.
+                <p class="text-lg mb-10 opacity-90 font-semibold text-primary-200">
+                    سايبس… حيث تبدأ <span class="text-cinnabar-300">الجودة</span> وتستمر
                 </p>
                 <button
                     class="bg-gradient-to-r from-cinnabar-500 to-primary-600 hover:from-cinnabar-600 hover:to-primary-700 text-white rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 relative z-10"
-                    style="padding: 10px 30px;">
+                    style="padding: 12px 35px;">
                     اكتشف منتجاتنا
                 </button>
             </div>
@@ -189,7 +191,7 @@
                 <div class="flex flex-col lg:flex-row-reverse gap-12 items-center">
                     <!-- Image Section -->
                     <div class="order-2 lg:order-1 w-full lg:w-[35%] why-us-image-container">
-                        <img src="img/why-us/service-left-img.png" alt="خدماتنا" class="w-full h-auto">
+                        <img src="img/why-us/service-left-img.png" alt="منتجاتنا" class="w-full h-auto">
                     </div>
 
                     <!-- Content Section -->
@@ -406,7 +408,7 @@
         </div>
 
         <!-- Tools Section -->
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 relative z-10">
+        <div id="tools" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 relative z-10">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-white mb-4">الأدوات</h2>
                 <p class="text-xl text-slate-300 max-w-3xl mx-auto">
@@ -505,7 +507,7 @@
             </div>
             
             <div class="grid md:grid-cols-3 gap-6 branches-grid">
-                <!-- Branch 1 - Tripoli Central -->
+                <!-- Branch 1 - Misrata -->
                 <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card animate-fade-in-up" style="background-color: rgb(245 245 245 / 44%); animation-delay: 0.1s;" dir="rtl">
                     <div class="flex items-center justify-start gap-3 mb-3">
                         <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background-color: rgb(237 28 36);">
@@ -527,12 +529,42 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
-                            <span>misrata@yassin.ly</span>
+                            <span>misrata@sipes.ly</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Branch 2 - Benghazi -->
+                <!-- Branch 2 - Tripoli Central (Main) -->
+                <div class="p-6 rounded-xl border-4 border-primary-500 hover:shadow-2xl transition-all branch-card relative bg-gradient-to-br from-primary-50 to-cinnabar-50" dir="rtl">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-bold">
+                        الفرع الرئيسي
+                    </div>
+                    <div class="flex items-center justify-start gap-3 mb-3 mt-2">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-r from-primary-600 to-cinnabar-600">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-primary-900">فرع طرابلس المركزي</h4>
+                    </div>
+                    <div class="space-y-3 text-right">
+                        <p class="text-sm text-gray-700 leading-relaxed font-medium">الشارع الرئيسي، المنطقة التجارية، طرابلس، ليبيا</p>
+                        <div class="flex items-center justify-start gap-2 text-primary-700 font-semibold">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span>1234567 21 218+</span>
+                        </div>
+                        <div class="flex items-center justify-start gap-2 text-primary-700 font-semibold">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span>tripoli@sipes.ly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branch 3 - Benghazi -->
                 <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card" style="background-color: rgb(245 245 245 / 44%);" dir="rtl">
                     <div class="flex items-center justify-start gap-3 mb-3">
                         <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background-color: rgb(237 28 36);">
@@ -554,34 +586,7 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
-                            <span>benghazi@yassin.ly</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Branch 3 - Tripoli Central -->
-                <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card" style="background-color: rgb(245 245 245 / 44%);" dir="rtl">
-                    <div class="flex items-center justify-start gap-3 mb-3">
-                        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background-color: rgb(237 28 36);">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2-2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                            </svg>
-                        </div>
-                        <h4 class="text-lg font-bold text-gray-900">فرع طرابلس المركزي</h4>
-                    </div>
-                    <div class="space-y-3 text-right">
-                        <p class="text-sm text-gray-600 leading-relaxed">الشارع الرئيسي، المنطقة التجارية، طرابلس، ليبيا</p>
-                        <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                            </svg>
-                            <span>1234567 21 218+</span>
-                        </div>
-                        <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                            </svg>
-                            <span>tripolicentral@yassin.ly</span>
+                            <span>benghazi@sipes.ly</span>
                         </div>
                     </div>
                 </div>
