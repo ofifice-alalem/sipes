@@ -1,0 +1,260 @@
+body {
+    font-family: 'Tajawal', Arial, sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #881418 0%, #ed1c24 100%);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation link underline effect */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background-color: #ed1c24;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(237, 28, 36, 0.05), transparent);
+    z-index: 1;
+}
+
+/* About Section Enhancements */
+#about {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-image-container {
+    position: relative;
+    animation: float 6s ease-in-out infinite;
+}
+
+.about-image-container img {
+    transition: transform 0.3s ease;
+}
+
+.about-image-container:hover img {
+    transform: scale(1.02);
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Decorative elements animation */
+.decorative-circle {
+    animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.4;
+    }
+}
+
+/* Vision & Mission Divider */
+.vision-mission-container {
+    position: relative;
+}
+
+.vision-mission-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e5e7eb;
+    transform: translateX(-50%);
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .vision-mission-container::before {
+        display: block;
+    }
+}
+
+/* Why Us Image Container */
+.why-us-image-container {
+    display: flex;
+    align-items: center;
+    /* transform: rotateY(180deg); */
+}
+
+/* Service Card Icon Container */
+.service-icon-container {
+    background: #ed1c2414;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Service Card Header */
+.service-card-header {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+/* Contact Section Custom Width */
+#contact .flex.items-center.justify-between {
+    width: min(95%, 950px);
+    margin: 0 auto;
+}
+/* Libya Map Gray Color */
+#contact img[src*="ly.svg"] {
+    filter: brightness(0) saturate(100%) invert(17%) sepia(16%) saturate(2618%) hue-rotate(200deg) brightness(95%) contrast(95%);
+}
+/* Branch Cards Icons Size */
+#contact .bg-white svg[style*="height: 2.4rem"] {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+/* Hide directions text */
+#contact .text-primary-600.font-medium.text-center {
+    display: none;
+}
+/* Compliance Section Bottom Wave Color */
+.relative.pt-32.pb-40.bg-gray-900 .absolute.bottom-0 .fill-white {
+    fill: #f9fafb;
+}
+/* Responsive Branch Cards */
+@media (max-width: 768px) {
+    #contact .grid.md\\:grid-cols-3 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    #contact .bg-white {
+        padding: 1.5rem;
+    }
+    
+    #contact .flex.items-center.justify-between {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    #contact .flex-1 {
+        width: 100%;
+    }
+}
+/* Footer Redesign */
+footer {
+    background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #7f1d1d 100%) !important;
+}
+/* Pseudo elements for services section */
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.right-\[-10\%\] {
+    right: -10%;
+}
+
+.bottom-\[-10\%\] {
+    bottom: -10%;
+}
+
+.top-\[-10\%\] {
+    top: -10%;
+}
+
+.left-\[-10\%\] {
+    left: -10%;
+}
+/* Product Cards Animation */
+.product-card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+}
+
+.product-card.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-card:nth-child(1).animate-in {
+    transition-delay: 0.1s;
+}
+
+.product-card:nth-child(2).animate-in {
+    transition-delay: 0.3s;
+}
+
+.product-card:nth-child(3).animate-in {
+    transition-delay: 0.5s;
+}
+
+/* Product Image Hover Animation */
+.product-image {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.9) !important;
+}
+
+/* Product Overlay */
+.product-overlay {
+    transition: opacity 0.3s ease;
+}
+
+/* Color Samples */
+.color-sample {
+    transition: transform 0.2s ease;
+}
+
+.color-sample:hover {
+    transform: scale(1.2);
+}
+/* Hide hero button initially */
+.hero-section button {
+  opacity: 0;
+  transform: scale(0);
+}
