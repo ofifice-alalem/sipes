@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sipes.ly/sitemap.xml
+
+# Disallow certain files
+Disallow: /script.js
+Disallow: /animations.js
+Disallow: /style.css

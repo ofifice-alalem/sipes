@@ -1,0 +1,24 @@
+{
+  "name": "سايبس - دهانات عالية الجودة",
+  "short_name": "سايبس",
+  "description": "شركة سايبس ليبيا للدهانات والطلاءات المعمارية والصناعية عالية الجودة",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ed1c24",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "sipes-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sipes-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "ar",
+  "dir": "rtl"
+}

@@ -4,8 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIPES.LY</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>سايبس ليبيا - دهانات عالية الجودة | SIPES Libya</title>
+    <meta name="description" content="شركة سايبس ليبيا للدهانات والطلاءات المعمارية والصناعية عالية الجودة. دهانات داخلية وخارجية ومنتجات العناية بالأخشاب بأفضل الأسعار في ليبيا.">
+    <meta name="keywords" content="سايبس, دهانات ليبيا, طلاء, دهانات داخلية, دهانات خارجية, العناية بالأخشاب, SIPES Libya, paint, coating">
+    <meta name="author" content="سايبس ليبيا">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Arabic">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="سايبس ليبيا - دهانات عالية الجودة">
+    <meta property="og:description" content="شركة سايبس ليبيا للدهانات والطلاءات المعمارية والصناعية عالية الجودة">
+    <meta property="og:image" content="https://sipes.ly/sipes-logo.png">
+    <meta property="og:url" content="https://sipes.ly">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_LY">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="سايبس ليبيا - دهانات عالية الجودة">
+    <meta name="twitter:description" content="شركة سايبس ليبيا للدهانات والطلاءات المعمارية والصناعية عالية الجودة">
+    <meta name="twitter:image" content="https://sipes.ly/sipes-logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sipes.ly">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="sipes-logo.png">
+    <link rel="apple-touch-icon" href="sipes-logo.png">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -45,6 +75,80 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "سايبس ليبيا",
+      "alternateName": "SIPES Libya",
+      "url": "https://sipes.ly",
+      "logo": "https://sipes.ly/sipes-logo.png",
+      "description": "شركة سايبس ليبيا للدهانات والطلاءات المعمارية والصناعية عالية الجودة",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "طرابلس حي الاندلس - بالقرب من مستشفى الرازي",
+        "addressLocality": "طرابلس",
+        "addressCountry": "ليبيا"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+218-51-3456789",
+        "contactType": "customer service",
+        "email": "info.libya@sipes.net"
+      },
+      "sameAs": [
+        "https://www.facebook.com/share/1CXKLnvXPQ/",
+        "https://ubmcgroup.com/sipes/ar/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "منتجات الدهانات",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "الدهانات الداخلية",
+              "description": "دهانات عالية الجودة للجدران الداخلية توفر تغطية مثالية وألوانًا زاهية تدوم طويلاً"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "الدهانات الخارجية",
+              "description": "حلول متطورة للواجهات الخارجية مقاومة للعوامل الجوية والمناخ القاسي"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "العناية بالأخشاب",
+              "description": "منتجات متخصصة لحماية وتجميل الأخشاب مع ضمان الحماية من الرطوبة والحشرات"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <!-- Google Analytics (replace GA_MEASUREMENT_ID with your actual ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Google Search Console verification (replace with your verification code) -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+    
+    <!-- Performance CSS -->
+    <link rel="stylesheet" href="performance.css">
 </head>
 
 <body class="bg-gray-50 text-gray-800">
