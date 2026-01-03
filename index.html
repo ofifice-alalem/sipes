@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ياسين - حلول مالية ذكية</title>
+    <title>SIPES.LY</title>
+    <link rel="icon" type="image/png" href="sipes-logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -54,70 +55,100 @@
                 <div class="flex items-center">
                     <img src="sipes-logo.png" alt="سايبس" class="h-12 md:h-16 w-auto">
                 </div>
-                
+
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-4 lg:space-x-6 xl:gap-8 space-x-reverse">
-                    <a href="#home" class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">الرئيسية</a>
-                    <a href="#about" class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">من نحن</a>
-                    <a href="#services" class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">المنتجات</a>
-                    <a href="#tools" class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">خدماتنا</a>
+                    <a href="#home"
+                        class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">الرئيسية</a>
+                    <a href="#about"
+                        class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">من
+                        نحن</a>
+                    <a href="#services"
+                        class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">المنتجات</a>
+                    <a href="#tools"
+                        class="text-white font-semibold text-lg lg:text-xl nav-link relative hover:text-cinnabar-400">خدماتنا</a>
                 </div>
-                
+
                 <!-- Mobile Menu Button -->
                 <button id="mobile-menu-btn" class="md:hidden text-white p-2 z-50">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
-                
+
                 <!-- Contact Button -->
-                <a href="#contact" class="hidden md:block px-4 lg:px-6 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-full font-medium transition-all text-sm lg:text-base">تواصل معنا</a>
+                <a href="#contact"
+                    class="hidden md:block px-4 lg:px-6 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-full font-medium transition-all text-sm lg:text-base">تواصل
+                    معنا</a>
             </div>
         </div>
     </nav>
 
     <!-- Mobile Offcanvas Menu -->
     <div id="offcanvas-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden md:hidden"></div>
-    <div id="offcanvas-menu" class="fixed top-0 right-0 h-full w-80 bg-gradient-to-br from-red-900 via-red-800 to-red-900 transform translate-x-full transition-transform duration-300 z-50 md:hidden shadow-2xl">
+    <div id="offcanvas-menu"
+        class="fixed top-0 right-0 h-full w-80 bg-gradient-to-br from-red-900 via-red-800 to-red-900 transform translate-x-full transition-transform duration-300 z-50 md:hidden shadow-2xl">
         <div class="p-6">
             <div class="flex justify-between items-center mb-10 border-b border-white/20 pb-6">
                 <img src="sipes-logo.png" alt="سايبس" class="h-12 w-auto">
                 <button id="close-offcanvas" class="text-white p-2 hover:bg-white/10 rounded-full transition-colors">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
                     </svg>
                 </button>
             </div>
             <div class="flex flex-col space-y-4">
-                <a href="#home" class="flex items-center gap-4 text-white font-semibold text-lg bg-yellow-400/20 hover:bg-yellow-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
-                    <svg class="w-5 h-5 text-yellow-300 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                <a href="#home"
+                    class="flex items-center gap-4 text-white font-semibold text-lg bg-yellow-400/20 hover:bg-yellow-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
+                    <svg class="w-5 h-5 text-yellow-300 group-hover:scale-110 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                        </path>
                     </svg>
                     الرئيسية
                 </a>
-                <a href="#about" class="flex items-center gap-4 text-white font-semibold text-lg bg-blue-400/20 hover:bg-blue-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
-                    <svg class="w-5 h-5 text-blue-300 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                <a href="#about"
+                    class="flex items-center gap-4 text-white font-semibold text-lg bg-blue-400/20 hover:bg-blue-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
+                    <svg class="w-5 h-5 text-blue-300 group-hover:scale-110 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                        </path>
                     </svg>
                     من نحن
                 </a>
-                <a href="#services" class="flex items-center gap-4 text-white font-semibold text-lg bg-green-400/20 hover:bg-green-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
-                    <svg class="w-5 h-5 text-green-300 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <a href="#services"
+                    class="flex items-center gap-4 text-white font-semibold text-lg bg-green-400/20 hover:bg-green-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
+                    <svg class="w-5 h-5 text-green-300 group-hover:scale-110 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
                     </svg>
                     المنتجات
                 </a>
-                <a href="#tools" class="flex items-center gap-4 text-white font-semibold text-lg bg-purple-400/20 hover:bg-purple-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
-                    <svg class="w-5 h-5 text-purple-300 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                <a href="#tools"
+                    class="flex items-center gap-4 text-white font-semibold text-lg bg-purple-400/20 hover:bg-purple-400/30 transition-all p-4 rounded-xl group hover:translate-x-1 mb-1">
+                    <svg class="w-5 h-5 text-purple-300 group-hover:scale-110 transition-transform" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
                     خدماتنا
                 </a>
                 <div class="pt-8 mt-8 border-t border-white/30">
-                    <a href="#contact" class="relative flex items-center justify-center gap-3 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg px-6 py-5 rounded-2xl hover:from-red-700 hover:to-red-900 transition-all shadow-2xl group transform hover:scale-105 hover:shadow-red-500/30">
-                        <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    <a href="#contact"
+                        class="relative flex items-center justify-center gap-3 bg-gradient-to-r from-red-600 to-red-800 text-white font-bold text-lg px-6 py-5 rounded-2xl hover:from-red-700 hover:to-red-900 transition-all shadow-2xl group transform hover:scale-105 hover:shadow-red-500/30">
+                        <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
                         </svg>
                         <span>تواصل معنا</span>
                         <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
@@ -136,12 +167,15 @@
             <div class="text-center pt-40">
                 <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
                     <span class="text-cinnabar-400 drop-shadow-lg">
-                        <span class="text-red-400">أ</span><span class="text-blue-400">ل</span><span class="text-green-400">و</span><span class="text-yellow-400">ا</span><span class="text-purple-400">ن</span>
+                        <span class="text-red-400">أ</span><span class="text-blue-400">ل</span><span
+                            class="text-green-400">و</span><span class="text-yellow-400">ا</span><span
+                            class="text-purple-400">ن</span>
                     </span> تصنع <span class="text-primary-400 drop-shadow-lg">الفرق</span>
                 </h1>
                 <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-95">
-                    اكتشف عالم الألوان المتميز مع 
-                    <span class="text-6xl md:text-7xl font-bold bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent drop-shadow-lg">سايبس</span>
+                    اكتشف عالم الألوان المتميز مع
+                    <span
+                        class="text-6xl md:text-7xl font-bold bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent drop-shadow-lg">سايبس</span>
                     واستمتع بجودة استثنائية تدوم لسنوات
                 </p>
                 <p class="text-lg mb-10 opacity-90 font-semibold text-primary-200">
@@ -157,7 +191,8 @@
     </section>
 
     <!-- About and Why Choose Us Section -->
-    <section class="py-24 relative overflow-hidden" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);">
+    <section class="pb-24 relative overflow-hidden"
+        style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);">
         <!-- Sudo Elements - Dot Pattern -->
         <div class="absolute inset-0 pointer-events-none">
             <!-- Top Left Grid -->
@@ -185,37 +220,117 @@
                 <div class="w-2 h-2 bg-pink-300/40 rounded-full animate-pulse delay-1600"></div>
             </div>
         </div>
+
         <!-- About Section -->
-        <div id="about" class="mb-20">
+        <div style="padding-top: 95px;padding-bottom: 205px; overflow: auto;" id="about" class="mb-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div class="relative about-images">
+                        <img src="img/about/new.png" class="rounded-3xl w-full scale-[2.5] about-img-1" alt="Office">
+                    </div>
+
+                    <div class="about-content relative z-10">
+                        <span class="text-primary-600 font-bold tracking-widest uppercase text-sm about-badge">مرحباً
+                            بكم</span>
+                        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6 leading-snug about-title">
+                            الإبداع في عالم <span
+                                class="bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent">الألوان</span>
+                        </h2>
+                        <p class="text-lg text-gray-600 mb-8 leading-relaxed about-text">
+                            سايبس – فرع ليبيا هي شركة متخصصة في الدهانات والطلاءات المعمارية والصناعية، نعمل على توفير
+                            حلول متكاملة تجمع بين جودة الخامات ودقة التصنيع وتنوّع الألوان.
+                        </p>
+
+
+                        <!-- Experience Stats -->
+                        <div class="flex items-start gap-8 mb-8 stats-container">
+                            <div class="flex-shrink-0 stats-number">
+                                <div class="text-7xl font-bold text-cinnabar-500 mb-2 leading-none relative">
+                                    <span
+                                        class="bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent drop-shadow-lg counter"
+                                        data-target="20">0</span><span
+                                        class="text-5xl bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent">+</span>
+                                    <div
+                                        class="absolute -top-2 -right-2 w-4 h-4 bg-cinnabar-400 rounded-full animate-pulse opacity-60">
+                                    </div>
+                                </div>
+                                <div
+                                    class="text-sm text-gray-600 font-medium bg-gray-100 px-3 py-1 rounded-full text-center shadow-sm">
+                                    وكيل حصري في ليبيا</div>
+                            </div>
+                            <div class="pt-2 stats-text">
+                                <p class="text-gray-600 mb-6 leading-relaxed">
+                                    نؤمن أن الطلاء ليس مجرد لون، بل هوية، حماية، ولمسة فنية تعكس ذوقك وتدوم لسنوات.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Mission and Vision -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 relative">
+                            <div class="pr-4">
+                                <h3 class="font-bold text-xl text-gray-900 mb-2">رؤيتنا</h3>
+                                <p class="text-gray-600 text-sm">أن نكون الخيار الأول في ليبيا في مجال الدهانات عالية
+                                    الجودة للمنازل والمشاريع.</p>
+                            </div>
+                            <div class="pr-4">
+                                <h3 class="font-bold text-xl text-gray-900 mb-2">رسالتنا</h3>
+                                <p class="text-gray-600 text-sm">تقديم دهانات موثوقة وعصرية تلبي احتياجات السوق الليبي،
+                                    مع الالتزام بأعلى معايير الجودة وخدمة العملاء.</p>
+                            </div>
+                            <div class="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block"
+                                style="background-color: rgb(237 28 36);"></div>
+                        </div>
+
+                        <button
+                            class="bg-gradient-to-r from-cinnabar-500 to-primary-600 hover:from-cinnabar-600 hover:to-primary-700 text-white px-8 py-4 rounded-xl transition-all shadow-lg">استكشف
+                            المجموعة</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div style="display: none;" id="about" class="mb-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-16 items-center">
                     <div class="relative about-images">
                         <div class="grid grid-cols-2 gap-4">
-                            <img src="img/about/about-2.jpg" class="rounded-3xl shadow-2xl mt-24 about-img-1" alt="Office">
+                            <img src="img/about/about-2.jpg" class="rounded-3xl shadow-2xl mt-24 about-img-1"
+                                alt="Office">
                             <img src="img/about/about-1.jpg" class="rounded-3xl shadow-2xl about-img-2" alt="Team">
                         </div>
                     </div>
 
                     <div class="about-content">
-                        <span class="text-primary-600 font-bold tracking-widest uppercase text-sm about-badge">مرحباً بكم</span>
+                        <span class="text-primary-600 font-bold tracking-widest uppercase text-sm about-badge">مرحباً
+                            بكم</span>
                         <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6 leading-snug about-title">
-                            من نحن؟
+                            الإبداع في عالم <span
+                                class="bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent">الألوان</span>
                         </h2>
                         <p class="text-lg text-gray-600 mb-8 leading-relaxed about-text">
-                            سايبس – فرع ليبيا هي شركة متخصصة في الدهانات والطلاءات المعمارية والصناعية، نعمل على توفير حلول متكاملة تجمع بين جودة الخامات ودقة التصنيع وتنوّع الألوان.
+                            سايبس – فرع ليبيا هي شركة متخصصة في الدهانات والطلاءات المعمارية والصناعية، نعمل على توفير
+                            حلول متكاملة تجمع بين جودة الخامات ودقة التصنيع وتنوّع الألوان.
                         </p>
                         <p class="text-lg text-gray-600 mb-8 leading-relaxed">
                             نؤمن أن الطلاء ليس مجرد لون، بل هوية، حماية، ولمسة فنية تعكس ذوقك وتدوم لسنوات.
                         </p>
-                        
+
                         <!-- Experience Stats -->
                         <div class="flex items-start gap-8 mb-8 stats-container">
                             <div class="flex-shrink-0 stats-number">
                                 <div class="text-7xl font-bold text-cinnabar-500 mb-2 leading-none relative">
-                                    <span class="bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent drop-shadow-lg counter" data-target="20">0</span><span class="text-5xl bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent">+</span>
-                                    <div class="absolute -top-2 -right-2 w-4 h-4 bg-cinnabar-400 rounded-full animate-pulse opacity-60"></div>
+                                    <span
+                                        class="bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent drop-shadow-lg counter"
+                                        data-target="20">0</span><span
+                                        class="text-5xl bg-gradient-to-r from-cinnabar-400 to-cinnabar-600 bg-clip-text text-transparent">+</span>
+                                    <div
+                                        class="absolute -top-2 -right-2 w-4 h-4 bg-cinnabar-400 rounded-full animate-pulse opacity-60">
+                                    </div>
                                 </div>
-                                <div class="text-sm text-gray-600 font-medium bg-gray-100 px-3 py-1 rounded-full text-center shadow-sm">وكيل حصري في ليبيا</div>
+                                <div
+                                    class="text-sm text-gray-600 font-medium bg-gray-100 px-3 py-1 rounded-full text-center shadow-sm">
+                                    وكيل حصري في ليبيا</div>
                             </div>
                             <div class="pt-2 stats-text">
                                 <p class="text-gray-600 mb-6 leading-relaxed">
@@ -223,25 +338,32 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Mission and Vision -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 relative">
                             <div class="pr-4">
                                 <h3 class="font-bold text-xl text-gray-900 mb-2">رؤيتنا</h3>
-                                <p class="text-gray-600 text-sm">أن نكون الخيار الأول في ليبيا في مجال الدهانات عالية الجودة للمنازل والمشاريع.</p>
+                                <p class="text-gray-600 text-sm">أن نكون الخيار الأول في ليبيا في مجال الدهانات عالية
+                                    الجودة للمنازل والمشاريع.</p>
                             </div>
                             <div class="pr-4">
                                 <h3 class="font-bold text-xl text-gray-900 mb-2">رسالتنا</h3>
-                                <p class="text-gray-600 text-sm">تقديم دهانات موثوقة وعصرية تلبي احتياجات السوق الليبي، مع الالتزام بأعلى معايير الجودة وخدمة العملاء.</p>
+                                <p class="text-gray-600 text-sm">تقديم دهانات موثوقة وعصرية تلبي احتياجات السوق الليبي،
+                                    مع الالتزام بأعلى معايير الجودة وخدمة العملاء.</p>
                             </div>
-                            <div class="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block" style="background-color: rgb(237 28 36);"></div>
+                            <div class="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block"
+                                style="background-color: rgb(237 28 36);"></div>
                         </div>
-                        
-                        <button class="bg-gradient-to-r from-cinnabar-500 to-primary-600 hover:from-cinnabar-600 hover:to-primary-700 text-white px-8 py-4 rounded-xl transition-all shadow-lg">اكتشف المزيد</button>
+
+                        <button
+                            class="bg-gradient-to-r from-cinnabar-500 to-primary-600 hover:from-cinnabar-600 hover:to-primary-700 text-white px-8 py-4 rounded-xl transition-all shadow-lg">استكشف
+                            المجموعة</button>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <!-- Why Choose Us -->
         <div id="why-us">
@@ -260,122 +382,128 @@
                                 تختارنا؟</span>
                         </div>
                         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-                            لماذا تختار دهانات <span class="text-primary-600">سايبس؟</span>
+                            لماذا تختار دهانات <span class="bg-gradient-to-r from-cinnabar-400 to-primary-600 bg-clip-text text-transparent">سايبس؟</span>
                         </h2>
 
-                    <!-- Services Grid -->
-                    <div class="grid md:grid-cols-2 gap-6 mb-6 services-grid">
-                        <!-- Service 1 -->
-                        <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow service-card" style="background-color: rgb(245 245 245 / 44%);">
-                            <div class="flex items-center gap-3 mb-3 service-card-header">
-                                <div class="service-icon-container flex-shrink-0">
-                                    <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z">
-                                        </path>
-                                    </svg>
+                        <!-- Services Grid -->
+                        <div class="grid md:grid-cols-2 gap-6 mb-6 services-grid">
+                            <!-- Service 1 -->
+                            <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow service-card"
+                                style="background-color: rgb(245 245 245 / 44%);">
+                                <div class="flex items-center gap-3 mb-3 service-card-header">
+                                    <div class="service-icon-container flex-shrink-0">
+                                        <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-gray-900">جودة يمكنك الوثوق بها</h3>
                                 </div>
-                                <h3 class="text-lg font-bold text-gray-900">جودة يمكنك الوثوق بها</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    نستخدم مواد عالية الجودة تضمن تشطيبًا مثاليًا وعمرًا أطول للطلاء.
+                                </p>
                             </div>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                نستخدم مواد عالية الجودة تضمن تشطيبًا مثاليًا وعمرًا أطول للطلاء.
-                            </p>
-                        </div>
 
-                        <!-- Service 2 -->
-                        <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow" style="background-color: rgb(245 245 245 / 44%);">
-                            <div class="flex items-center gap-3 mb-3 service-card-header">
-                                <div class="service-icon-container flex-shrink-0">
-                                    <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z">
-                                        </path>
-                                    </svg>
+                            <!-- Service 2 -->
+                            <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow"
+                                style="background-color: rgb(245 245 245 / 44%);">
+                                <div class="flex items-center gap-3 mb-3 service-card-header">
+                                    <div class="service-icon-container flex-shrink-0">
+                                        <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-gray-900">ألوان ثابتة ولمعان يدوم</h3>
                                 </div>
-                                <h3 class="text-lg font-bold text-gray-900">ألوان ثابتة ولمعان يدوم</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    ألوان مدروسة بعناية تحافظ على رونقها مهما طال الزمن.
+                                </p>
                             </div>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                ألوان مدروسة بعناية تحافظ على رونقها مهما طال الزمن.
-                            </p>
-                        </div>
 
-                        <!-- Service 3 -->
-                        <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow" style="background-color: rgb(245 245 245 / 44%);">
-                            <div class="flex items-center gap-3 mb-3 service-card-header">
-                                <div class="service-icon-container flex-shrink-0">
-                                    <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                                        </path>
-                                    </svg>
+                            <!-- Service 3 -->
+                            <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow"
+                                style="background-color: rgb(245 245 245 / 44%);">
+                                <div class="flex items-center gap-3 mb-3 service-card-header">
+                                    <div class="service-icon-container flex-shrink-0">
+                                        <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-gray-900">خبرة ومعرفة بالسوق الليبي</h3>
                                 </div>
-                                <h3 class="text-lg font-bold text-gray-900">خبرة ومعرفة بالسوق الليبي</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    منتجاتنا مصمّمة لتناسب البيئة الليبية من حيث الحرارة والرطوبة والغبار.
+                                </p>
                             </div>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                منتجاتنا مصمّمة لتناسب البيئة الليبية من حيث الحرارة والرطوبة والغبار.
-                            </p>
-                        </div>
 
-                        <!-- Service 4 -->
-                        <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow" style="background-color: rgb(245 245 245 / 44%);">
-                            <div class="flex items-center gap-3 mb-3 service-card-header">
-                                <div class="service-icon-container flex-shrink-0">
-                                    <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M13 10V3L4 14h7v7l9-11h-7z">
-                                        </path>
-                                    </svg>
+                            <!-- Service 4 -->
+                            <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow"
+                                style="background-color: rgb(245 245 245 / 44%);">
+                                <div class="flex items-center gap-3 mb-3 service-card-header">
+                                    <div class="service-icon-container flex-shrink-0">
+                                        <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13 10V3L4 14h7v7l9-11h-7z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-gray-900">تطبيق سريع وسهل</h3>
                                 </div>
-                                <h3 class="text-lg font-bold text-gray-900">تطبيق سريع وسهل</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    دهانات سهلة التطبيق توفر عليك الوقت والجهد مع نتائج ممتازة.
+                                </p>
                             </div>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                دهانات سهلة التطبيق توفر عليك الوقت والجهد مع نتائج ممتازة.
-                            </p>
-                        </div>
 
-                        <!-- Service 5 -->
-                        <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow" style="background-color: rgb(245 245 245 / 44%);">
-                            <div class="flex items-center gap-3 mb-3 service-card-header">
-                                <div class="service-icon-container flex-shrink-0">
-                                    <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                                        </path>
-                                    </svg>
+                            <!-- Service 5 -->
+                            <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow"
+                                style="background-color: rgb(245 245 245 / 44%);">
+                                <div class="flex items-center gap-3 mb-3 service-card-header">
+                                    <div class="service-icon-container flex-shrink-0">
+                                        <svg class="w-8 h-8 text-cinnabar-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-gray-900">أسعار منافسة</h3>
                                 </div>
-                                <h3 class="text-lg font-bold text-gray-900">أسعار منافسة</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    جودة عالية بأسعار معقولة تناسب جميع الميزانيات.
+                                </p>
                             </div>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                جودة عالية بأسعار معقولة تناسب جميع الميزانيات.
-                            </p>
-                        </div>
 
-                        <!-- CTA Card -->
-                        <div class="bg-gradient-to-r from-cinnabar-600 to-primary-700 p-6 rounded-xl text-white">
-                            <h3 class="text-lg font-bold mb-4">استكشف جميع منتجاتنا المتميزة</h3>
-                            <button
-                                class="bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2 w-full justify-center">
-                                <span>عرض جميع المنتجات</span>
-                                <svg class="w-5 h-5 text-cinnabar-500" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M15 19l-7-7 7-7"></path>
-                                </svg>
-                            </button>
+                            <!-- CTA Card -->
+                            <div class="bg-gradient-to-r from-cinnabar-600 to-primary-700 p-6 rounded-xl text-white">
+                                <h3 class="text-lg font-bold mb-4">استكشف جميع منتجاتنا المتميزة</h3>
+                                <button
+                                    class="bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2 w-full justify-center">
+                                    <span>عرض جميع المنتجات</span>
+                                    <svg class="w-5 h-5 text-cinnabar-500" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 19l-7-7 7-7"></path>
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Services and Compliance Section -->
-    <section id="services" class="py-32 relative" style="background-image: url('img/services/bg-services.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <section id="services" class="py-32 relative"
+        style="background-image: url('img/services/bg-services.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="absolute inset-0 bg-gradient-to-br from-cinnabar-900/95 via-primary-900/80 to-black/70"></div>
         <!-- Services -->
         <div class="relative overflow-hidden">
@@ -388,77 +516,115 @@
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Interior Paints -->
-                    <div class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
-                        <div class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
-                            <img src="img/products/inside/Interiors-Emulsions-3-1000x671__1_-removebg-preview.png" alt="الدهانات الداخلية" class="product-image w-full h-52 object-contain transition-transform duration-300" style="transform: scale(1.8);">
-                            <div class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
+                    <div
+                        class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
+                        <div
+                            class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
+                            <img src="img/products/inside/Interiors-Emulsions-3-1000x671__1_-removebg-preview.png"
+                                alt="الدهانات الداخلية"
+                                class="product-image w-full h-52 object-contain transition-transform duration-300"
+                                style="transform: scale(1.8);">
+                            <div
+                                class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                                 <div class="color-samples flex gap-2">
-                                    <div class="color-sample w-4 h-4 bg-blue-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-green-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-purple-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-pink-400 rounded-full border-2 border-white"></div>
+                                    <div class="color-sample w-4 h-4 bg-blue-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-green-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-purple-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-pink-400 rounded-full border-2 border-white">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="product-content">
                             <h3 class="text-2xl font-bold text-white mb-4">الدهانات الداخلية</h3>
-                            <p class="text-gray-300 mb-6 leading-relaxed">دهانات عالية الجودة للجدران الداخلية توفر تغطية مثالية وألوانًا زاهية تدوم طويلاً</p>
+                            <p class="text-gray-300 mb-6 leading-relaxed">دهانات عالية الجودة للجدران الداخلية توفر
+                                تغطية مثالية وألوانًا زاهية تدوم طويلاً</p>
                             <ul class="text-sm text-gray-400 mb-6 space-y-2">
                                 <li>• مقاومة للبقع والخدوش</li>
                                 <li>• سهولة في التنظيف</li>
                                 <li>• ألوان ثابتة لا تبهت</li>
                             </ul>
-                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank" class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف المجموعة</a>
+                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank"
+                                class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف
+                                المجموعة</a>
                         </div>
                     </div>
 
                     <!-- Exterior Paints -->
-                    <div class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
-                        <div class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
-                            <img src="img/products/outside/Exterior-1ss-1000x671-removebg-preview.png" alt="الدهانات الخارجية" class="product-image w-full h-52 object-contain transition-transform duration-300" style="transform: scale(1.8);">
-                            <div class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
+                    <div
+                        class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
+                        <div
+                            class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
+                            <img src="img/products/outside/Exterior-1ss-1000x671-removebg-preview.png"
+                                alt="الدهانات الخارجية"
+                                class="product-image w-full h-52 object-contain transition-transform duration-300"
+                                style="transform: scale(1.8);">
+                            <div
+                                class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                                 <div class="color-samples flex gap-2">
-                                    <div class="color-sample w-4 h-4 bg-red-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-yellow-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-orange-400 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-teal-400 rounded-full border-2 border-white"></div>
+                                    <div class="color-sample w-4 h-4 bg-red-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-yellow-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-orange-400 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-teal-400 rounded-full border-2 border-white">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="product-content">
                             <h3 class="text-2xl font-bold text-white mb-4">الدهانات الخارجية</h3>
-                            <p class="text-gray-300 mb-6 leading-relaxed">حلول متطورة للواجهات الخارجية مقاومة للعوامل الجوية والمناخ القاسي</p>
+                            <p class="text-gray-300 mb-6 leading-relaxed">حلول متطورة للواجهات الخارجية مقاومة للعوامل
+                                الجوية والمناخ القاسي</p>
                             <ul class="text-sm text-gray-400 mb-6 space-y-2">
                                 <li>• مقاومة للأشعة فوق البنفسجية</li>
                                 <li>• حماية من الرطوبة والعفن</li>
                                 <li>• تحمل درجات الحرارة العالية</li>
                             </ul>
-                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank" class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف المجموعة</a>
+                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank"
+                                class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف
+                                المجموعة</a>
                         </div>
                     </div>
 
                     <!-- Wood Care -->
-                    <div class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
-                        <div class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
-                            <img src="img/products/wood/Adobe Express - file.png" alt="العناية بالأخشاب" class="product-image w-full h-52 object-contain transition-transform duration-300" style="transform: scale(1.8);">
-                            <div class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
+                    <div
+                        class="product-card bg-black/40 backdrop-blur-sm p-6 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50">
+                        <div
+                            class="product-image-container bg-gradient-to-br from-gray-900/80 to-black/60 rounded-xl p-6 mb-6 relative overflow-hidden">
+                            <img src="img/products/wood/Adobe Express - file.png" alt="العناية بالأخشاب"
+                                class="product-image w-full h-52 object-contain transition-transform duration-300"
+                                style="transform: scale(1.8);">
+                            <div
+                                class="product-overlay absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                                 <div class="color-samples flex gap-2">
-                                    <div class="color-sample w-4 h-4 bg-amber-600 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-orange-600 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-red-600 rounded-full border-2 border-white"></div>
-                                    <div class="color-sample w-4 h-4 bg-yellow-600 rounded-full border-2 border-white"></div>
+                                    <div class="color-sample w-4 h-4 bg-amber-600 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-orange-600 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-red-600 rounded-full border-2 border-white">
+                                    </div>
+                                    <div class="color-sample w-4 h-4 bg-yellow-600 rounded-full border-2 border-white">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="product-content">
                             <h3 class="text-2xl font-bold text-white mb-4">العناية بالأخشاب</h3>
-                            <p class="text-gray-300 mb-6 leading-relaxed">منتجات متخصصة لحماية وتجميل الأخشاب مع ضمان الحماية من الرطوبة والحشرات</p>
+                            <p class="text-gray-300 mb-6 leading-relaxed">منتجات متخصصة لحماية وتجميل الأخشاب مع ضمان
+                                الحماية من الرطوبة والحشرات</p>
                             <ul class="text-sm text-gray-400 mb-6 space-y-2">
                                 <li>• حماية من الحشرات والفطريات</li>
                                 <li>• مقاومة للماء والرطوبة</li>
                                 <li>• يحافظ على جمال الخشب الطبيعي</li>
                             </ul>
-                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank" class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف المجموعة</a>
+                            <a href="https://ubmcgroup.com/sipes/ar/السوق/" target="_blank"
+                                class="product-btn w-full bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-4 rounded-lg font-semibold transition-all transform hover:scale-105 inline-block text-center">استكشف
+                                المجموعة</a>
                         </div>
                     </div>
                 </div>
@@ -474,44 +640,63 @@
                 </p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
-                    <div class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div
+                    class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                            </path>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-4">آلة حاسبة</h3>
                     <p class="text-gray-300 leading-relaxed mb-6">احسب كمية الدهان المطلوبة لمشروعك بدقة</p>
-                    <a href="https://ubmcgroup.com/sipes/ar/أله-حاسبة/" target="_blank" class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">استخدم الآلة</a>
+                    <a href="https://ubmcgroup.com/sipes/ar/أله-حاسبة/" target="_blank"
+                        class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">استخدم
+                        الآلة</a>
                 </div>
 
-                <div class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
-                    <div class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div
+                    class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z">
+                            </path>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-4">كتالوج الألوان</h3>
                     <p class="text-gray-300 leading-relaxed mb-6">استعرض مجموعة واسعة من الألوان المتاحة</p>
-                    <a href="https://ubmcgroup.com/sipes/ar/كتالوج-الألوان/" target="_blank" class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">عرض الكتالوج</a>
+                    <a href="https://ubmcgroup.com/sipes/ar/كتالوج-الألوان/" target="_blank"
+                        class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">عرض
+                        الكتالوج</a>
                 </div>
 
-                <div class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
-                    <div class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div
+                    class="bg-black/40 backdrop-blur-sm p-8 rounded-2xl group transition-all duration-300 transform hover:-translate-y-2 border border-cinnabar-500/30 hover:border-cinnabar-400/50 text-center">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-r from-cinnabar-600 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                            </path>
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-4">تلوين الغرف</h3>
                     <p class="text-gray-300 leading-relaxed mb-6">جرب الألوان على غرفتك قبل الطلاء</p>
-                    <a href="https://ubmcgroup.com/sipes/ar/تلوين-الغرف/" target="_blank" class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">جرب الآن</a>
+                    <a href="https://ubmcgroup.com/sipes/ar/تلوين-الغرف/" target="_blank"
+                        class="inline-block bg-gradient-to-r from-cinnabar-600 to-primary-700 hover:from-cinnabar-500 hover:to-primary-600 text-white py-3 px-6 rounded-lg font-semibold transition-all">جرب
+                        الآن</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 relative overflow-hidden" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);">
+    <section id="contact" class="py-20 relative overflow-hidden"
+        style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);">
         <!-- Sudo Elements - Dot Pattern -->
         <div class="absolute inset-0 pointer-events-none">
             <!-- Top Left Grid -->
@@ -548,29 +733,34 @@
                     <p class="text-xl text-gray-600 mb-8">
                         مع شبكة واسعة عبر ليبيا، حدد موقع أقرب فرع لك لخدمات صرف العملات المريحة.
                     </p>
-                    <button class="bg-white border-2 border-primary-600 text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors">
+                    <button
+                        class="bg-white border-2 border-primary-600 text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-colors">
                         محدد الفروع
                     </button>
                 </div>
-                
+
                 <!-- Libya Map -->
                 <div class="flex-1 flex justify-end">
                     <img src="img/contact/ly.svg" alt="خريطة ليبيا" class="w-[500px] h-auto opacity-60">
                 </div>
             </div>
-            
+
             <!-- Branches Section -->
             <div class="text-center mb-8" style="margin-top: 30px;">
                 <h3 class="text-2xl font-bold text-primary-900">الفروع القريبة منك</h3>
             </div>
-            
+
             <div class="grid md:grid-cols-3 gap-6 branches-grid">
                 <!-- Branch 1 - Misrata -->
-                <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card animate-fade-in-up" style="background-color: rgb(245 245 245 / 44%); animation-delay: 0.1s;" dir="rtl">
+                <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card animate-fade-in-up"
+                    style="background-color: rgb(245 245 245 / 44%); animation-delay: 0.1s;" dir="rtl">
                     <div class="flex items-center justify-start gap-3 mb-3">
-                        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background-color: rgb(237 28 36);">
+                        <div class="w-10 h-10 rounded-xl flex items-center justify-center"
+                            style="background-color: rgb(237 28 36);">
                             <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                                </path>
                             </svg>
                         </div>
                         <h4 class="text-lg font-bold text-gray-900">فرع مصراتة</h4>
@@ -579,13 +769,17 @@
                         <p class="text-sm text-gray-600 leading-relaxed">طريق السوق، المنطقة التجارية، مصراتة، ليبيا</p>
                         <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                </path>
                             </svg>
                             <span>3456789 51 218+</span>
                         </div>
                         <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                </path>
                             </svg>
                             <span>misrata@sipes.ly</span>
                         </div>
@@ -593,29 +787,39 @@
                 </div>
 
                 <!-- Branch 2 - Tripoli Central (Main) -->
-                <div class="p-6 rounded-xl border-4 border-primary-500 hover:shadow-2xl transition-all branch-card relative bg-gradient-to-br from-primary-50 to-cinnabar-50" dir="rtl">
-                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-bold">
+                <div class="p-6 rounded-xl border-4 border-primary-500 hover:shadow-2xl transition-all branch-card relative bg-gradient-to-br from-primary-50 to-cinnabar-50"
+                    dir="rtl">
+                    <div
+                        class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-bold">
                         الفرع الرئيسي
                     </div>
                     <div class="flex items-center justify-start gap-3 mb-3 mt-2">
-                        <div class="w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-r from-primary-600 to-cinnabar-600">
+                        <div
+                            class="w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-r from-primary-600 to-cinnabar-600">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                                </path>
                             </svg>
                         </div>
                         <h4 class="text-xl font-bold text-primary-900">فرع طرابلس المركزي</h4>
                     </div>
                     <div class="space-y-3 text-right">
-                        <p class="text-sm text-gray-700 leading-relaxed font-medium">الشارع الرئيسي، المنطقة التجارية، طرابلس، ليبيا</p>
+                        <p class="text-sm text-gray-700 leading-relaxed font-medium">الشارع الرئيسي، المنطقة التجارية،
+                            طرابلس، ليبيا</p>
                         <div class="flex items-center justify-start gap-2 text-primary-700 font-semibold">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                </path>
                             </svg>
                             <span>1234567 21 218+</span>
                         </div>
                         <div class="flex items-center justify-start gap-2 text-primary-700 font-semibold">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                </path>
                             </svg>
                             <span>tripoli@sipes.ly</span>
                         </div>
@@ -623,26 +827,35 @@
                 </div>
 
                 <!-- Branch 3 - Benghazi -->
-                <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card" style="background-color: rgb(245 245 245 / 44%);" dir="rtl">
+                <div class="p-4 rounded-xl border-2 border-gray-200 hover:shadow-lg transition-shadow branch-card"
+                    style="background-color: rgb(245 245 245 / 44%);" dir="rtl">
                     <div class="flex items-center justify-start gap-3 mb-3">
-                        <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background-color: rgb(237 28 36);">
+                        <div class="w-10 h-10 rounded-xl flex items-center justify-center"
+                            style="background-color: rgb(237 28 36);">
                             <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
+                                </path>
                             </svg>
                         </div>
                         <h4 class="text-lg font-bold text-gray-900">فرع بنغازي</h4>
                     </div>
                     <div class="space-y-3 text-right">
-                        <p class="text-sm text-gray-600 leading-relaxed">شارع جمال عبد الناصر، مركز المدينة التجاري، وسط المدينة، بنغازي، ليبيا</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">شارع جمال عبد الناصر، مركز المدينة التجاري، وسط
+                            المدينة، بنغازي، ليبيا</p>
                         <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                </path>
                             </svg>
                             <span>2345678 61 218+</span>
                         </div>
                         <div class="flex items-center justify-start gap-2 text-blue-600 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                </path>
                             </svg>
                             <span>benghazi@sipes.ly</span>
                         </div>
@@ -666,19 +879,24 @@
                         </div>
                     </div>
                     <p class="text-gray-300 text-sm leading-relaxed">
-                        رواد في عالم الدهانات والطلاءات في ليبيا، نقدم حلولاً متكاملة بأعلى معايير الجودة لتلبية جميع احتياجاتكم.
+                        رواد في عالم الدهانات والطلاءات في ليبيا، نقدم حلولاً متكاملة بأعلى معايير الجودة لتلبية جميع
+                        احتياجاتكم.
                     </p>
                     <div class="flex space-x-4 space-x-reverse">
-                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+                        <a href="#"
+                            class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
                             <span class="text-sm font-bold">f</span>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+                        <a href="#"
+                            class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
                             <span class="text-sm font-bold">t</span>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+                        <a href="#"
+                            class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
                             <span class="text-sm font-bold">i</span>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+                        <a href="#"
+                            class="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
                             <span class="text-sm font-bold">w</span>
                         </a>
                     </div>
@@ -688,22 +906,26 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4 text-primary-200">منتجاتنا</h4>
                     <ul class="space-y-3 text-sm">
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
-                            الدهانات الداخلية
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
-                            الدهانات الخارجية
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
-                            العناية بالأخشاب
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
-                            الدهانات الصناعية
-                        </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+                                الدهانات الداخلية
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+                                الدهانات الخارجية
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+                                العناية بالأخشاب
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+                                الدهانات الصناعية
+                            </a></li>
                     </ul>
                 </div>
 
@@ -711,22 +933,26 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4 text-primary-200">خدماتنا</h4>
                     <ul class="space-y-3 text-sm">
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
-                            استشارة الألوان
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
-                            حاسبة الدهان
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
-                            التطبيق المهني
-                        </a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                            <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
-                            الدعم الفني
-                        </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
+                                استشارة الألوان
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
+                                حاسبة الدهان
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
+                                التطبيق المهني
+                            </a></li>
+                        <li><a href="#"
+                                class="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <span class="w-2 h-2 bg-cinnabar-400 rounded-full"></span>
+                                الدعم الفني
+                            </a></li>
                     </ul>
                 </div>
 
@@ -737,8 +963,11 @@
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                    </path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                 </svg>
                             </div>
                             <span>طرابلس، ليبيا</span>
@@ -746,7 +975,9 @@
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                    </path>
                                 </svg>
                             </div>
                             <span>+218 21 1234567</span>
@@ -754,7 +985,9 @@
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
                                 </svg>
                             </div>
                             <span>info@sipes.ly</span>
@@ -774,9 +1007,11 @@
         </div>
 
         <!-- Scroll To Top Button -->
-        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-primary-500 to-cinnabar-600 hover:from-primary-600 hover:to-cinnabar-700 rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110 shadow-lg">
+        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            class="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-primary-500 to-cinnabar-600 hover:from-primary-600 hover:to-cinnabar-700 rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110 shadow-lg">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18">
+                </path>
             </svg>
         </button>
     </footer>
@@ -791,23 +1026,23 @@
         const offcanvasMenu = document.getElementById('offcanvas-menu');
         const offcanvasOverlay = document.getElementById('offcanvas-overlay');
         const closeOffcanvas = document.getElementById('close-offcanvas');
-        
+
         function openOffcanvas() {
             offcanvasMenu.classList.remove('translate-x-full');
             offcanvasOverlay.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
         }
-        
+
         function closeOffcanvasMenu() {
             offcanvasMenu.classList.add('translate-x-full');
             offcanvasOverlay.classList.add('hidden');
             document.body.style.overflow = 'auto';
         }
-        
+
         mobileMenuBtn.addEventListener('click', openOffcanvas);
         closeOffcanvas.addEventListener('click', closeOffcanvasMenu);
         offcanvasOverlay.addEventListener('click', closeOffcanvasMenu);
-        
+
         // Close offcanvas when clicking on links
         document.querySelectorAll('#offcanvas-menu a').forEach(link => {
             link.addEventListener('click', closeOffcanvasMenu);
