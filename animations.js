@@ -17,10 +17,8 @@ gsap.timeline({
     toggleActions: "play none none reverse"
   }
 })
-.from(".about-images", { x: -100, opacity: 0, duration: 1, ease: "power2.out" })
-.from(".about-img-1", { scale: 0.8, rotation: -5, duration: 0.8 }, "-=0.5")
-.from(".about-img-2", { scale: 0.8, rotation: 5, duration: 0.8 }, "-=0.6")
-.from(".about-badge", { y: 20, opacity: 0, duration: 0.6 }, "-=0.4")
+.from(".about-img-1", { y: -150, duration: 1.2, ease: "power1.out" })
+.from(".about-badge", { y: 20, opacity: 0, duration: 0.6 })
 .from(".about-title", { y: 30, opacity: 0, duration: 0.8 }, "-=0.3")
 .from(".about-text", { y: 20, opacity: 0, duration: 0.6 }, "-=0.2");
 
